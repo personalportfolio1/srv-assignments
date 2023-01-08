@@ -1,0 +1,310 @@
+@media screen and (max-width:1024px) {
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    h3 {
+        font-size: 27px;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    section {
+        padding: 3rem 0rem;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 2rem;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 2rem;
+    }
+
+    header .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    header .navbar-nav .nav-item .nav-link {
+        font-size: 19px;
+        font-weight: 500;
+        padding: 0.7rem 0px;
+    }
+
+    /* about PU start */
+    #About-parul-university .content p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    /* about PU end */
+    /* parul university experience start */
+    #university-experience .digits h5 {
+        font-size: 20px;
+    }
+
+    /* parul university experience end */
+    /* why PU study start */
+    #why-pu {
+        padding: 0.5rem 0rem;
+    }
+
+    #why-pu .first-chart,
+    #why-pu .second-chart {
+        height: 200px;
+        font-size: 17px;
+    }
+
+    /* why PU study end */
+    /* we help you section start */
+    #we-help-you .how p {
+        font-size: 25px;
+    }
+
+    #we-help-you .free-counselling img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #we-help-you span {
+        font-size: 15px;
+    }
+
+    #we-help-you .info {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /* we help you section end */
+    /* our students section start */
+    #our-student .students-name-university,
+    #our-student .students-name-universitys {
+        height: 200px;
+    }
+
+    #our-student .students-name-university .students-name span,
+    #our-student .students-name-universitys .students-name span {
+        font-size: 15px;
+        line-height: 10px ! important;
+    }
+
+    #our-student .students-name-university .students-name p,
+    #our-student .students-name-universitys .students-name p {
+        font-size: 12px;
+    }
+
+    .our-stud-image {
+        height: 200px;
+
+    }
+
+    /* our students section end */
+    #languages .content p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    #languages a {
+        font-size: 13px;
+    }
+
+    #languages .why-learn-languages h5 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    /* glymps start */
+    #glympse h5 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 13px;
+    }
+
+    #glympse p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* glymps end */
+    /* they did it section start */
+    #they-did-it h5 {
+        font-size: 16px;
+        color: #151545;
+        font-weight: 500;
+    }
+
+    #they-did-it .students {
+        width: 150px;
+        border: 1px solid #707070;
+    }
+
+    #they-did-it .students .student-name {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    #they-did-it .students .score {
+        font-size: 10px;
+    }
+
+    #they-did-it .student-info {
+        margin-left: 53px;
+    }
+
+    /* they did it section end */
+    /* scholarship apportunities start */
+    .scholarship-info {
+        padding: 4rem 0rem;
+    }
+
+    #scholarship p {
+        font-size: 16px;
+    }
+
+    /* scholarship apportunities end */
+    /* our happy learners start */
+    #happy-learnesrs .learners-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* our happy learners end */
+    /* footer start */
+    footer {
+        font-size: 14px;
+    }
+
+    /* footer end */
+}
+
+@media screen and (max-width:767px) {
+}
+
+@media screen and (max-width:575px) {
+    section {
+        padding: 2rem 0rem;
+    }
+
+    header .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #banner {
+        background-image: url("../images/Banner/Banner2.png");
+    }
+    #banner .forms{
+        display:none;
+    }
+    #apply-now {
+        transform: rotate(360deg);
+        right: 0px;
+        top: 20px;
+    }
+
+    /* banner end */
+    /* about PU start */
+    #About-parul-university .content p {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    /* about PU end */
+    /* parul university experience start */
+    #university-experience {
+        background-image: url("../images/choose-university/choose-1.png");
+    }
+    #university-experience .digits p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    #university-experience .digits h5 {
+        font-size: 16px;
+    }
+
+    #university-experience ul {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+
+    /* parul university experience end */
+    /* we help you section start */
+    #we-help-you .how h2 {
+        font-size: 25px;
+    }
+
+    #we-help-you .free-counselling img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #we-help-you .info {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    /* we help you section end */
+/* glimpse start */
+#glympse img{
+    width:99%;
+}
+/* glimpse end */
+    /* scholarship apportunities start */
+    #scholarship {
+        background-image: url("../images/scholarship/scholarship1.png");
+    }
+    .scholarship-info {
+        padding: 2rem 0rem;
+    }
+
+    #scholarship h4 {
+        font-size: 23px;
+    }
+
+    #scholarship p {
+        font-size: 14px;
+        color: white;
+        line-height: 20px;
+    }
+
+    /* scholarship apportunities end */
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:320px) {
+
+    /* why PU study start */
+    #why-pu .first-chart,
+    #why-pu .second-chart {
+        height: 150px;
+        font-size: 17px;
+    }
+
+    #why-pu p {
+        font-size: 14px;
+    }
+
+    /* why PU study end */
+    /* we help you section start */
+    #we-help-you .how h2 {
+        font-size: 20px;
+    }
+
+    #we-help-you .info p {
+        font-size: 12px;
+    }
+
+    /* we help you section end */
+}

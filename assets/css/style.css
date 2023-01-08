@@ -1,0 +1,384 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 4rem 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #0084D6;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 39px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #0084D6;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 2.5rem;
+
+}
+select {
+    opacity: 0.8;
+}
+
+input,
+select {
+    font-size: 12px ! important;
+    height: 1.9rem;
+}
+
+/* header start */
+header .navbar-brand img{
+    width: 160px;
+    height: 60px;
+}
+
+header .navbar-nav .nav-item {
+    padding: 0px 10px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    color: #151545;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+header .navbar-toggler:focus,
+header .navbar-toggler {
+    box-shadow: none;
+    outline: 0px;
+    border: 0px;
+}
+
+header .navbar-toggler span {
+    color: yellow;
+}
+
+.scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px rgb(65, 63, 63);
+}
+
+/* header end */
+/* banner start */
+#banner {
+    background-image: url("../images/Banner/Banner1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner form h4 {
+    margin-bottom: -3px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#banner .buttons {
+    background-color: #C42C40;
+    border-radius: 4px;
+    float: right;
+    line-height: 10px;
+    padding:16px;
+    color:white;
+    border:0px;
+}
+
+#banner .captcha {
+    height: 60px;
+    font-size: 13px;
+}
+#apply-now {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 80px;
+    right: -32px;
+    z-index: 99;
+    background-color: #C42C40;
+    font-weight: 600;
+}
+
+.form-wrappers {
+    padding: 2rem 0rem;
+}
+
+/* banner end */
+/* about PU start */
+#About-parul-university .content p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/* about PU end */
+/* parul university experience start */
+#university-experience {
+    background-image: url("../images/choose-university/choose-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#university-experience .digits h5 {
+    font-weight: 700;
+    color: #0E3852;
+    font-size: 27px;
+}
+
+/* parul university experience end */
+/* why PU study start */
+#why-pu {
+    padding: 1rem 0rem;
+}
+
+#why-pu .first-chart{
+    background-color: #0E3852;
+}
+#why-pu .first-chart,
+#why-pu .second-chart {
+    text-align: center;
+    color: white;
+    height: 250px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    --webkit-transition: all 0.5s ease-in;
+    --moz-transition: all 0.5s ease-in;
+    --ms-transition: all 0.5s ease-in;
+    --o-transition: all 0.5s ease-in;
+
+}
+#why-pu .first-chart:hover,
+#why-pu .second-chart:hover{
+    --webkit-transform: scale(1.1);
+    --moz-transform: scale(1.1);
+    --ms-transform: scale(1.1);
+    --o-transform: scale(1.1);
+  border:1px solid #0084D6;
+}
+#why-pu .second-chart {
+    background-color: #0084D6;
+}
+
+/* why PU study end */
+/* we help you section start */
+#we-help-you .how p {
+    color: #151545;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 10px;
+}
+
+#we-help-you .free-counselling img {
+    width: 80px;
+    height: 80px;
+}
+
+#we-help-you span {
+    font-size: 17px;
+    color: #151545;
+    font-weight: 600;
+}
+
+#we-help-you .info {
+    font-size: 14px;
+}
+
+.help-to-study {
+    padding-top: 35px;
+}
+
+/* we help you section end */
+/* our students section start */
+#our-student .students-name-university,
+#our-student .students-name-universitys {
+    background-color: #0E3852;
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#our-student .students-name-university .students-name span,
+#our-student .students-name-universitys .students-name span {
+    color: hsl(41, 96%, 58%);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#our-student .students-name-university p,
+#our-student .students-name-universitys p {
+    color: white;
+}
+
+#our-student .students-name-university img,
+#our-student .students-name-universitys img {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    height: 16px;
+}
+
+.our-stud-image {
+    height: 250px;
+
+}
+
+#next-arrow {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    height: 16px;
+}
+
+/* our students section end */
+/* why learn languages section start */
+#languages .why-learn-languages h5 {
+    font-weight: 600;
+}
+
+#languages .content p {
+    line-height: 25px;
+    font-weight: 500;
+}
+
+#languages a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#languages ul li a img {
+    width: 16px;
+}
+
+/* why learn languages section end */
+/* glymps start */
+#glympse h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 13px;
+}
+
+#glympse p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* glymps end */
+/* they did it section start */
+#they-did-it h5 {
+    font-size: 22px;
+    color: #151545;
+    font-weight: 500;
+}
+
+#they-did-it .students {
+    width: 170px;
+    height: 60px;
+    border: 1px solid #707070;
+    margin-top: -30px;
+}
+
+#they-did-it .students p {
+    line-height: 7px;
+}
+
+#they-did-it .students .student-name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#they-did-it .students .score {
+    font-size: 12px;
+    line-height: 10px;
+}
+
+#they-did-it .student-info {
+    margin-left: 70px;
+}
+
+/* they did it section end */
+/* scholarship apportunities start */
+#scholarship {
+    background-image: url("../images/scholarship/scholarship2.png");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scholarship-info {
+    padding: 4rem 0rem;
+}
+
+#scholarship h4 {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+}
+
+#scholarship p {
+    font-size: 18px;
+    color: white;
+}
+
+/* scholarship apportunities end */
+
+/* our happy learners start */
+#happy-learnesrs .info {
+    font-size: 14px;
+    font-weight: 500;
+}
+#happy-learnesrs .first-card img{
+    width: 42px;
+    height: 42px;
+}
+#happy-learnesrs .learners-image {
+    width: 60px;
+    height: 60px;
+}
+
+.stud-name {
+    color: #0E3852;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#happy-learnesrs .first-card {
+    border: 1px solid #0E3852;
+}
+
+/* our happy learners end */
+/* footer start */
+footer {
+    background-color: #0E3852;
+}
+
+/* footer end */
